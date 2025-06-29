@@ -43,6 +43,66 @@
 
       <!-- Add an input with the type set to 'submit' -->
 
-    
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form Page</title>
+</head>
+<body>
+
+  <form>
+    <!-- Full Name -->
+    <label for="fullname">Full Name:</label>
+    <input 
+      type="text" 
+      id="fullname" 
+      placeholder="Enter Name" 
+      required
+    >
+
+    <!-- Email -->
+    <label for="email">Email:</label>
+    <input 
+      type="email" 
+      id="email" 
+      placeholder="Enter Email" 
+      required
+    >
+
+    <!-- Phone (Optional) -->
+    <label for="phone">Phone:</label>
+    <input 
+      type="tel" 
+      id="phone" 
+      placeholder="Enter Telephone (optional)"
+    >
+
+    <!-- Message -->
+    <label for="message">Message:</label>
+    <textarea 
+      id="message" 
+      placeholder="Enter Message"
+    ></textarea>
+
+    <!-- Checkbox -->
+    <label for="subscribe">
+      <input 
+        type="checkbox" 
+        id="subscribe"
+      > Subscribe to newsletter
+    </label>
+
+    <!-- Submit Button -->
+    <input 
+      type="submit" 
+      value="Submit"
+    >
+  </form>
+
+</body>
+</html>
+
   </body>
 </html>
